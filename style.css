@@ -1,0 +1,77 @@
+/* Modern & Vibrant Recipe Card CSS */
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #fcf8f5; 
+  color: #2c2c2c;            
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.recipe-card {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px; 
+  border: 1px solid #f2e6df;
+}
+
+.recipe-header h1 {
+  color: #d65a31;            
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.recipe-header p {
+  color: #7d7d7d;            
+  font-size: 1.05rem;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.image-placeholder {
+  background: linear-gradient(135deg, #fceade, #f7d6c5); 
+  padding: 50px;
+  text-align: center;
+  border-radius: 12px;
+  color: #b3593b;
+  font-weight: 600;
+  margin: 25px 0;
+}
+
+.prep-box {
+  background-color: #fff6ee;  
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  border-left: 4px solid #f4a261; 
+}
+
+.prep-box h3 {
+  margin-top: 0;
+  color: #e76f51;             
+}
+
+.prep-box ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+  color: #4a4a4a;
+}
+
+.section h2 {
+  color: #d65a31;
+  border-bottom: 2px solid #f2e6df;
+  padding-bottom: 8px;
+  margin-top: 35px;
+}
+
+.section ul, .section ol {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.section li {
+  margin-bottom: 10px;
+}
